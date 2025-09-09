@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Light-mode simple styling */
+html { scroll-behavior: smooth; }
+body { background: rgb(255, 254, 254); }
+.section { min-height: 100vh; padding: 6rem 1rem; }
+.navbar { position: fixed; top: 0; left: 0; right: 0; backdrop-filter: blur(4px); }
+.container { max-width: 1100px; margin: 0 auto; }
+.card { background: white; border-radius: 0.75rem; box-shadow: 0 6px 20px rgba(2,6,23,0.08); padding: 1rem; }
